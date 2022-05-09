@@ -5,9 +5,9 @@ import {TaskInputComponents, TaskListComponents} from "./components/TasksCompone
 
 function App() {
   const [tasks, setTasks] = useState([
-    { text: "Создание курса - 1 час", id: "t1" },
-    { text: "Разминка 15 мин", id: "t2" },
-    { text: "Создание курса - 1 час", id: "t3" },
+    { text: "Тест - 1", id: "t1" },
+    { text: "Тест - 2", id: "t2" },
+    { text: "Тест - 3", id: "t3" },
   ]);
 
   const addTaskHandler = (inputText) => {
@@ -26,7 +26,7 @@ function App() {
   };
 
   let content = (
-      <p style={{ textAlign: "center" }}>Задач не найдено! Добавить?</p>
+      <p style={{ textAlign: "center" }}>Задачу не знайдено! Додати?</p>
   );
 
   if (tasks.length > 0) {

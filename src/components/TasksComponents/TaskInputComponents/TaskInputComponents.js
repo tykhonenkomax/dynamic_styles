@@ -18,10 +18,10 @@ const TaskInputComponents = (props) => {
     return (
         <form onSubmit={formSubmitHandler}>
             <div className="form-control">
-                <label>Задачи</label>
+                <label>Список задач:</label>
                 <input type="text" onChange={taskInputChangeHandler} />
             </div>
-            <button type="submit">Добавить Задачу</button>
+            <button type="submit">Додати Задачу</button>
         </form>
     );
 };
